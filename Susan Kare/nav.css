@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=VT323);
+
+body {
+    margin: 0%;
+    background-color:whitesmoke;
+}
+nav {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(190, 244, 83);
+  align-items: center;
+  justify-content: space-between;
+}
+li, a {
+  font-family:'VT323';
+  font-weight: 500px;
+  font-size: 30px;
+  color: black;
+  text-decoration:none;
+}
+.nav__links {
+  list-style: none;
+}
+.nav__links li{
+  display: inline-block;
+  padding: 0px 20px
+}
+.nav__links li a:hover {
+  color:mediumpurple
+}
+
+.flat-web {
+height: 100%;
+width: 100%;
+border: none;
+}
+.navbar{
+    position:fixed;
+    top:0px;
+    left: 80%;
+    width: 20%;
+    padding:10px;
+    background-color: mediumpurple;
+    text-align:center;
+    align-items:center;
+    justify-content: space-between;
+    size-adjust: 50%;
+}
+h1{
+    margin-bottom: 45px;
+    text-align: center;
+    font-family:'VT323';
+    font-size: 50px;
+    text-transform: uppercase;
+    color: black;
+
+}
+h2 {
+    text-align: left;
+    margin: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    letter-spacing: .08em;
+    padding-bottom: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+p {
+    margin-left: 30px;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font: 300 16px/28px;
+    letter-spacing: .08em;
+    padding-bottom: 10px;
+    border-bottom: 2px solid plum;
+}
+h4 {
+    margin-left: 30px;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font: 100 10px;
+    font-size: smaller;
+    letter-spacing: .08em;
+    padding-bottom: 20px;
+    border-bottom: 2px solid plum;
+}
+.susankare {
+    display: block;
+    width: 500px;
+    height: 500px;
+    float: right;
+    margin: 30px;
+    overflow: hidden;
+    border-radius: 25%;
+    transition: all 0.5s ease-in-out;
+    border-style:groove;
+    border-color: plum;
+}
+
+.container{
+    padding: 75px 0;
+    margin: 0 auto;
+    width: 1140px;
+  }
+
+  h3{
+    text-align: center;
+    margin-bottom: 45px;
+    font-family:'VT323';
+    font-size: 44px;
+    text-transform: uppercase;
+    color: black;
+  }
+  .homebar{
+    margin: 30px;
+  }
+
+  .gallery-item {
+	flex: 1 0 24rem;
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+  .gallery-image {
+	display: block;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24rem, 1fr));
+    grid-gap: 2rem;
+}
